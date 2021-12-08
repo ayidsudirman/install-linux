@@ -106,7 +106,7 @@
 
       <main class="bg-gray-100 px-16 md:py-6 md:col-span-2">
         <div class="py-3 flex md:flex-row md:justify-end">
-          <a href="#" class="font-bold ml-2 hover:text-green-800">Log in</a>
+          <a href="#" class="font-bold hover:text-green-800">Log in</a>
           <a href="#" class="font-bold ml-4 hover:text-green-800">Sign up</a>
         </div>
 
@@ -122,14 +122,35 @@
             Popularity
           </h4>
 
-          <div class="mt-8 grid lg:grid-cols-3 gap-10">
+          <div class="mt-8 grid lg:grid-cols-3 gap-10 lg:gap-2">
             <!-- cards go here -->
-            <div class="card hover:shadow-lg">
-              <img
-                src="img/Debian.png"
-                alt="debian"
-                class="w-full h-32 sm:h-48 object-cover"
-              />
+            <div class="card hover:shadow-lg w-auto">
+              <img src="img/mx-linux.png" alt="mx-linux" class="mx-auto" />
+              <div class="m-4">
+                <span class="font-bold">MX Linux</span>
+                <span class="block text-gray-500 text-sm">origin: greece</span>
+              </div>
+              <div class="badge">
+                <svg
+                  class="w-5 inline-block"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                  ></path>
+                </svg>
+                <span>1st</span>
+              </div>
+            </div>
+
+            <div class="card hover:shadow-lg w-auto">
+              <img src="img/debian-logo.png" alt="debian" class="mx-auto" />
               <div class="m-4">
                 <span class="font-bold">Debian GNU/Linux</span>
                 <span class="block text-gray-500 text-sm">origin: global</span>
@@ -153,11 +174,11 @@
               </div>
             </div>
 
-            <div class="card hover:shadow-lg">
+            <div class="card hover:shadow-lg w-auto">
               <img
-                src="img/OpenSUSE.png"
+                src="img/opensuse-logo.png"
                 alt="open-suse"
-                class="w-full h-32 sm:h-48 object-cover"
+                class="mx-auto"
               />
               <div class="m-4">
                 <span class="font-bold">OpenSUSE</span>
@@ -182,12 +203,60 @@
               </div>
             </div>
 
-            <div class="card hover:shadow-lg">
-              <img
-                src="img/Void_Linux.png"
-                alt="void"
-                class="w-full h-32 sm:h-48 object-cover"
-              />
+            <div class="card hover:shadow-lg w-auto">
+              <img src="img/kde-neon-logo.png" alt="kde-neon" class="mx-auto" />
+              <div class="m-4">
+                <span class="font-bold">KDE Neon</span>
+                <span class="block text-gray-500 text-sm"
+                  >origin: united kingdom</span
+                >
+              </div>
+              <div class="badge">
+                <svg
+                  class="w-5 inline-block"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                  ></path>
+                </svg>
+                <span>13th</span>
+              </div>
+            </div>
+
+            <div class="card hover:shadow-lg w-auto">
+              <img src="img/arch-logo.png" alt="arch" class="mx-auto" />
+              <div class="m-4">
+                <span class="font-bold">Arch Linux</span>
+                <span class="block text-gray-500 text-sm">origin: canada</span>
+              </div>
+              <div class="badge">
+                <svg
+                  class="w-5 inline-block"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                  ></path>
+                </svg>
+                <span>19th</span>
+              </div>
+            </div>
+
+            <div class="card hover:shadow-lg w-auto">
+              <img src="img/void-logo.png" alt="void" class="mx-auto" />
               <div class="m-4">
                 <span class="font-bold">Void Linux</span>
                 <span class="block text-gray-500 text-sm">origin: spain</span>
@@ -211,16 +280,8 @@
               </div>
             </div>
           </div>
-
-          <h4 class="font-bold mt-12 pb-2 border-b border-green-200 uppercase">
-            Latest Review
-          </h4>
-
-          <div class="mt-8">
-            <!-- card go here -->
-          </div>
         </div>
-        <div class="flex justify-center">
+        <div class="flex justify-center mt-10">
           <div class="btn transition ease-out duration-500">Load More</div>
         </div>
       </main>
